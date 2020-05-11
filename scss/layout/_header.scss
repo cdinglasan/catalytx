@@ -1,0 +1,23 @@
+.header {
+    background: $white-transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+    @include respond(mobile) {
+        position: absolute;
+    }
+}
+
+.nav__logo__img {
+
+    @include respond(tablet) {
+        height: 80px;
+
+    }
+}
+

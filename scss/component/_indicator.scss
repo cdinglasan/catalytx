@@ -1,0 +1,35 @@
+.rl-indicator {
+    position: absolute;
+    top:50%;
+    
+    
+    &--left {
+        left:20px;
+    }
+
+    &--right {
+        right:20px
+    }
+
+    @include respond(tablet) {
+        position: relative;
+        right: 0;
+        left: 0;
+        margin: 40px 0;
+
+        img {
+            width: 40px;
+        }
+    }
+}
+
+.container-indicator {
+    @include respond(tablet) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &--center {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,268 @@
+
+@font-face {
+    font-family: 'Gothic';
+    src: url(../font/GOTHIC.TTF);
+}
+
+
+@font-face {
+    font-family: 'GothicBold';
+    src: url(../font/GOTHICB.TTF);
+}
+
+@font-face {
+    font-family: 'GothicItalic';
+    src: url(../font/GOTHICI.TTF);
+}
+
+@font-face {
+    font-family: 'GothicBoldItalic';
+    src: url(../font/GOTHICBI.TTF);
+}
+
+// FONT FAMILY
+$gothic: 'Gothic', sans-serif;
+$gothicBold: 'GothicBold', sans-serif;
+$gothicItalic: 'GothicItalic', sans-serif;
+$gothicBoldItalic: 'GothicBoldItalic', sans-serif;
+
+
+
+body {
+    font-family: $gothic;
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $gothic;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2.5em;
+    //margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1.6em;
+   // margin-bottom: 0.5em;
+}
+
+.h1 {
+
+    &--pageheading {
+        font-size: 3.6em;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+
+        &--color {
+            color: $red;
+        }
+
+        &--center {
+            text-align: center;
+        }
+
+        @include respond(tablet) {
+            font-size: 3em;
+            margin-bottom: 30px;
+        }
+
+        @include respond(mobile) {
+            margin-top: 40px;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+
+    &--red {
+        color: $red;
+    }
+
+    &--big {
+        font-size: 1.5em;
+        line-height: 1.5em;
+        margin-bottom: 1em;
+
+        @include respond(tablet) {
+            font-size: 1.4em;
+        }
+
+        @include respond(mobile) {
+            font-size: 1em;
+        }
+    }
+
+    &--medium {
+        font-size: 1.4em;
+        line-height: 1.5em;
+        margin-bottom: 1em;
+    }
+
+    &--bold {
+        font-weight: bold;
+    }
+
+    &__quote {
+        color: white;
+        font-size: 3em;
+        line-height: 1.5em;
+        margin-bottom: 1em;
+
+        @include respond(tablet) {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        @include respond(mobile) {
+            font-size: 1.2em;
+            text-align: center;
+        }
+    }
+
+    &__by {
+        color: $red;
+        font-size: 3em;
+        text-align: right;
+
+        @include respond(tablet) {
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+            text-align: right;
+        }
+
+
+        @include respond(mobile) {
+            font-size: 1.3em;
+            text-align: center;
+        }
+
+        span {
+            color: white;
+            font-size: 0.5em;
+        }
+
+        
+    }
+}
+
+.span {
+    
+    &--text-red {
+        color:$red;
+    }
+}
+
+
+
+.home {
+    &__h1 {
+        font-size: 6em;
+        font-family: $gothic;
+        font-weight: normal;
+        line-height: 0.7em;
+        letter-spacing: 14px;
+
+        span {
+            font-size: 60px;
+
+            @include respond(mobile) {
+                font-size: 30px;
+            }
+        }
+
+        @include respond(mobile) {
+            font-size: 3em;
+        }
+
+        
+    }
+
+    &__h2 {
+        font-family: $gothicBold;
+        font-size: 4em;
+
+        @include respond(mobile) {
+            font-size: 2em;
+        }
+
+    }
+}
+
+.what-we-do {
+    &__h2 {
+        font-size: 1.5em;
+        font-weight: normal;
+        margin-bottom: 20px;
+
+        @include respond(tablet) {
+            font-size: 1.2em;
+        }
+    }
+}
+
+
+.success-stories {
+
+    &__h2 {
+        font-size:2.4em ;
+        line-height: 1.8em;
+        margin-bottom: 1rem;
+
+        @include respond(tablet) {
+            font-size: 1.8em;
+        }
+
+        @include respond(mobile) {
+            margin-top: 30px;
+           text-align: center;
+        }
+    }
+
+
+    &__h3 {
+        font-size:1.8em ;
+        line-height: 1.8em;
+
+        @include respond(tablet) {
+            font-size:1.6em ;
+            font-size: 1.4em;
+        }
+    }
+
+    &__p {
+        font-size: 1.2em;
+        line-height: 1.8em;
+        margin-bottom: 1rem;
+
+        @include respond(tablet) {
+            font-size: 1em;
+            line-height: 1.6em;
+        }
+    }
+}
+
+
+.contact-info {
+
+    &__h2 {
+        font-size: 1.8em;
+        line-height: 2em;
+    }
+
+    &__p {
+        font-size: 1.2em;
+        line-height: 1.6em;
+    }
+}
+

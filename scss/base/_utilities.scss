@@ -1,0 +1,35 @@
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: left;
+}
+
+
+.responsive {
+    &__img {
+        width: 100%;
+    }
+
+    &--mobile-only {
+        @include respond(tablet) {
+            width: 100%;
+        }
+    }
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.span--red {
+    color: $red;
+}
+

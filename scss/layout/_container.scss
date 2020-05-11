@@ -1,0 +1,56 @@
+.viewport {
+    height: 100vh;
+}
+
+.wrap {
+    overflow: hidden;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+
+    &--auto {
+        margin: auto;
+    }
+
+    @include respond(1439px) {
+        width: 90%;
+    }
+
+    @include respond(mobile) {
+        width: 98%;
+    }
+}
+
+.row {
+    position: relative;
+    padding: 0 20px;
+
+
+    @include respond(mobile) {
+        padding: 0 12px;
+    }
+
+    &--flex {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include respond(tablet) {
+            flex-direction: column;
+        }
+    }
+
+    &--start {
+        align-items: flex-start;
+    }
+}
+
+.section {
+    padding-top: 180px;
+    display: flex;
+
+    @include respond(mobile) {
+        padding-top: 102.52px;
+    }
+}

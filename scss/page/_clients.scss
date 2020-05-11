@@ -1,0 +1,91 @@
+.client {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 175px;
+        margin: 20px;
+
+        @include respond(mobile) {
+           width: 132px;
+           margin: 10px;
+        }
+
+        &:hover {
+            &::after {
+                content: attr(data-hover);
+                transition: 0.8s;
+            }
+        }
+
+
+    }
+
+
+    &__logo {
+        margin-bottom: 20px;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        cursor: pointer;
+        
+        &:hover {
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
+
+        @include respond(mobile) {
+            width: 80%;
+            margin: 10px auto;
+         }
+    }
+
+    &__label {
+        visibility: hidden;
+
+        &:hover {
+            visibility: show;
+        }
+    }
+}
+
+.family {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        margin: 20px;
+
+        @include respond(mobile) {
+            width: 50%;
+            margin: 10px auto;
+         }
+
+
+        &--full-width {
+           width: 100%;
+           align-items: center;
+        }
+    }
+
+    &__logo {
+        @include respond(mobile) {
+            width: 80%;
+            margin: 10px auto;
+         }
+    }
+
+  
+}

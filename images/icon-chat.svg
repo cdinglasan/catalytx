@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45.649" height="45.648" viewBox="0 0 45.649 45.648">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #ed1c25;
+      }
+
+      .cls-3, .cls-5, .cls-6, .cls-8, .cls-9 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: rgba(35,31,32,0.2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-8 {
+        fill: #dcddde;
+      }
+
+      .cls-9 {
+        fill: #bcbec0;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Intersection_1" data-name="Intersection 1" class="cls-1" d="M0,22.823A22.825,22.825,0,1,1,22.825,45.648,22.823,22.823,0,0,1,0,22.823Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_102" data-name="Path 102" class="cls-2" d="M-1262.924,966.335l29.629-10.493-10.111,29.636-6.636-8.264.108-4.406h-4.562Z" transform="translate(1262.924 -955.842)"/>
+    </clipPath>
+  </defs>
+  <g id="CHATBOT" transform="translate(1265.373 -950.398)">
+    <path id="Path_97" data-name="Path 97" class="cls-3" d="M-1265.373,973.222a22.824,22.824,0,0,1,22.824-22.824,22.824,22.824,0,0,1,22.825,22.824,22.824,22.824,0,0,1-22.825,22.824A22.824,22.824,0,0,1-1265.373,973.222Z"/>
+    <g id="Group_26" data-name="Group 26" class="cls-4" transform="translate(-1265.373 950.398)">
+      <g id="Group_25" data-name="Group 25" transform="translate(4.382 9.722)">
+        <path id="Path_98" data-name="Path 98" class="cls-5" d="M-1214.918,971.686l-18.452-15.854-29.456,10.473,30.562,32.239,14.82-10.186,2.956-16.242Z" transform="translate(1263.002 -955.832)"/>
+        <g id="Group_24" data-name="Group 24" transform="translate(0 0.018)">
+          <path id="Path_99" data-name="Path 99" class="cls-6" d="M-1262.924,966.335l29.629-10.493-10.111,29.636-6.636-8.264.108-4.406h-4.562Z" transform="translate(1262.924 -955.842)"/>
+          <g id="Group_23" data-name="Group 23" class="cls-7">
+            <path id="Path_100" data-name="Path 100" class="cls-8" d="M-1258.427,973.32l21.9-17.669-17.189,17.653Z" transform="translate(1266.473 -955.993)"/>
+            <path id="Path_101" data-name="Path 101" class="cls-9" d="M-1256.34,974.335l18.24-18.731-17.442,22.175Z" transform="translate(1268.119 -956.03)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

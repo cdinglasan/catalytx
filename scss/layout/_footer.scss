@@ -1,0 +1,29 @@
+.footer {
+    text-align: center;
+    color: #ACACAC;
+    padding: 10px 0;
+    bottom: 0;
+    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 888;
+
+    &--transparent {
+        background: transparent;
+        position: fixed !important;
+    }
+
+    @include respond(tablet) {
+        position: relative;
+    }
+
+
+    &__p {
+        font-size: 16px;
+
+        @include respond(mobile) {
+            font-size: 12px;
+        }
+    }
+}

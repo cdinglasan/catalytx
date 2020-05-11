@@ -1,0 +1,35 @@
+@mixin respond($breakpoint) {
+    @if $breakpoint == mobile {
+        @media only screen and (max-width: 600px) { @content };
+    }
+    @if $breakpoint == tablet {
+        @media only screen and (max-width: 1024px) { @content }; 
+    }
+
+    @if $breakpoint == tablet-portrait {
+        @media only screen and (max-width: 768px) { @content }; 
+    }
+
+    @if $breakpoint == desktop {
+        @media only screen and (min-width: 841px) and (max-width:1400px) { @content };
+    }
+
+    @if $breakpoint == large-screen {
+        @media only screen and (min-width: 1401px) { @content };
+    }
+
+    @else {
+        @media only screen and (max-width: $breakpoint) { @content }; //Custom size 
+    }
+}
+
+@mixin respondMinWidth($breakpoint) {
+    @media only screen and (min-width: $breakpoint) { @content };
+}
+
+
+
+
+
+
+

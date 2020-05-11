@@ -1,0 +1,50 @@
+.content {
+    &__richard {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        @include respond(tablet) {
+            align-items: flex-end;
+        }
+    }
+}
+
+
+.richard {
+    background: url("../images/bg-photo-richard-yang@2x.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 175px;
+    padding: 0 40px;
+
+    
+    @include respond(tablet) {
+        background: url("../images/bg-richard-yang-tablet-portrait.jpg") no-repeat top right;
+        background-size: cover;
+        margin-top: 0;
+    }
+
+    @include respond(tablet-portrait) {
+        background: url("../images/bg-richard-yang-tablet-portrait.jpg") no-repeat center right;
+        background-size: cover;
+    }
+
+    @include respond(mobile) {
+        background: url("../images/bg-richard-yang-mobile.jpg") no-repeat;
+        background-size: cover;
+        margin-top: 0;
+
+    }
+
+    &__quote {
+        width: 60%;
+
+        @include respond(tablet) {
+            width: 94%;
+            margin:0 auto;
+            margin-bottom: 80px;
+        }
+    }
+    
+}

@@ -1,0 +1,80 @@
+.success-stories {
+    display: flex;
+
+    @include respond(tablet) {
+        flex-wrap: wrap;
+    }
+   
+    @include respond(mobile) {
+        flex-direction: column;
+    }
+
+
+
+    &__image {
+        width: 40%;
+        margin-right: 40px;
+        display: flex;
+       
+    &--center {
+        justify-content: center;
+        align-items: center;
+    }
+
+        @include respond(tablet) {
+            width: 40%;
+        }
+
+        @include respond(mobile) {
+            display: flex;
+            width: 100%;
+        }
+
+        &--gardenia {
+            width: 208px;
+
+            @include respond(mobile) {
+                width: 120px;
+            }
+        }
+
+        &--thunderbird {
+            width: 193px;
+
+            @include respond(mobile) {
+                width: 114px;
+            }
+        }
+
+        &--goya {
+            width: 407px;
+
+            @include respond(mobile) {
+                width: 317px;
+            }
+        }
+    }
+
+    &__text {
+        width: 60%;
+
+
+        @include respond(tablet) {
+            width: 60%;
+        }
+
+        @include respond(mobile) {
+            width: 100%;
+        }
+    }
+
+
+    &--full-width {
+        @include respond(tablet) {
+            width: 100%;
+        }
+    }
+
+  
+
+}

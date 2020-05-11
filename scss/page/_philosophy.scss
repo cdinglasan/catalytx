@@ -1,0 +1,17 @@
+.philosophy {
+
+    &__item {
+        background: url("../images/icon-philosphy.svg") no-repeat;;
+        width: 261px;
+        height: 258.6px;
+        margin: 10px 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+
+        @include respond(tablet) {
+
+        }
+    }
+}

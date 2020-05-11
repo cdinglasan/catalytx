@@ -1,0 +1,60 @@
+.contact-info {
+    display: flex;
+
+    @include respond(mobile) {
+       flex-direction: column;
+    }
+
+    &__primary {
+        width: 30%;
+        margin-left: 2.5%;
+
+        @include respond(tablet) {
+            width: 45%;
+            margin:0 5% 0 0;
+         }
+         
+         @include respond(mobile) {
+            width: 100%;
+            margin:0;
+         }  
+    }
+
+    &__brain {
+        width: 30%;
+        margin:0 2.5%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+
+        @include respond(tablet) {
+            display: none;
+         }     
+    }
+
+    &__social {
+        width: 30%;
+        margin-left: 2.5%;
+
+        @include respond(tablet) {
+            width: 45%;
+            margin:0 0 0 5%;
+         }    
+
+         @include respond(mobile) {
+            width: 100%;
+            margin:0;
+         }  
+    }
+
+    &__links {
+        color: $red;
+    }
+
+    &__social-links {
+        margin-right: 10px;
+    }
+
+
+
+}
