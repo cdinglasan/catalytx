@@ -1,0 +1,129 @@
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 200px;
+
+    @include respond(mobile) {
+        padding-bottom: 0;
+    }
+
+    &__list {
+        width: 280px;
+        margin: 40px 20px;
+       // height: auto;
+        justify-content: center;
+        display: flex;
+        position: relative;
+
+        @include respond(mobile) {
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          margin: 10px 0;
+         // height: 100px;
+        }
+        
+        &:hover .profile__description {
+            //visibility: visible;
+            display: block;
+            opacity: 1;
+            height: auto;
+            transition: 0.5s;
+
+            @include respond(mobile) {
+                position: relative;
+                visibility: none;
+               -webkit-box-shadow: none; 
+                box-shadow:none;
+                
+            }
+    
+        }
+    }
+
+    &__pic {
+        width: 180px;
+        height: 180px;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        cursor: pointer;
+
+        @include respond(mobile) {
+            width: 120px;
+            height: 120px;
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+        }
+        
+
+        &:hover {
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+            transition: 0.5s;
+            transform: scale(1.1);
+        }
+
+    }
+
+    &__name {
+        color: $red;
+        font-size: 1.6em;
+    }
+
+    &__position {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    &__description {
+        //visibility: hidden;
+        display: none;
+        width: 110%;
+        padding: 10px;
+        height: 200px;
+        background-color: #fff;
+        color: #000;
+        text-align: center;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 9;
+        bottom: -140px;
+        left: 0;
+        opacity: 0;
+        transition: opacity 0.3s;
+        cursor: pointer;
+        -webkit-box-shadow: 6px 3px 25px 6px rgba(0,0,0,0.06); 
+        box-shadow: 6px 3px 25px 6px rgba(0,0,0,0.06);
+
+        @include respond(mobile) {
+            position: relative;
+            //visibility: visible;
+            opacity: 1;
+           -webkit-box-shadow: none; 
+            box-shadow:none;
+            display: block;
+            width: 100%;
+            top: 0;
+
+        }
+
+
+
+       /* &::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border:1px solid #333;
+            cursor: pointer;
+          }*/
+    }
+
+    &__p {
+        font-size: 0.85em;
+    }
+}

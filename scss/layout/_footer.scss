@@ -12,6 +12,19 @@
     &--transparent {
         background: transparent;
         position: fixed !important;
+
+        @include respond(1366px) {
+            position: relative !important;
+        }
+    }
+
+    &--relative {
+        position: relative;
+        margin-top: 120px;
+    }
+
+    @include respond(1366px) {
+        position: relative;
     }
 
     @include respond(tablet) {

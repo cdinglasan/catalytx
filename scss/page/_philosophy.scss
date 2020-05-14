@@ -1,5 +1,9 @@
 .philosophy {
 
+    &__content {
+        margin-bottom: 100px;
+    }
+
     &__item {
         background: url("../images/icon-philosphy.svg") no-repeat;;
         width: 261px;
@@ -8,10 +12,6 @@
         display: flex;
         align-items: center;
         text-align: center;
-
-
-        @include respond(tablet) {
-
-        }
+      
     }
 }

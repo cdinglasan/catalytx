@@ -1,5 +1,6 @@
 .contact-info {
     display: flex;
+    margin-bottom: 100px;
 
     @include respond(mobile) {
        flex-direction: column;

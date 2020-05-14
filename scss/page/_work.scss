@@ -1,0 +1,101 @@
+.work {
+
+
+    &__content {
+      
+    }
+
+    &__video {
+        width: 794px;
+        height: 500px;
+        overflow: hidden;
+        margin: auto;
+
+      
+
+        @include respond(mobile) {
+            width: 300px;
+            height: 250px;
+        }
+    }
+
+    &__item {
+        width: 768px;
+        height: 576px;
+        background-color: white;
+
+        @include respond(tablet) {
+            width: 560px;
+           // height: 576px;
+        }
+
+        @include respond(mobile) {
+            width: 320px;
+           // height: 576px;
+        }
+    }
+
+    &__thumbnail {
+        width: 1024px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+
+        @include respond(tablet) {
+            width: 98%;
+        }
+
+        @include respond(mobile) {
+            max-width: 600px;
+            overflow: hidden;
+        }
+
+        &__img {
+            @include respond(tablet) {
+                width: 100px;
+            }
+
+            @include respond(mobile) {
+                width: 45px;
+            }
+        }
+    }
+    &__iframe {
+        width: 98%;
+        margin: auto;
+        height: 447px;
+
+        @include respond(tablet) {
+          // height: 300px;
+        }
+
+        @include respond(mobile) {
+            height: 200px;
+         }
+    }
+
+    &__title {
+        font-size: 1.2em;
+        margin: 10px 0;
+
+        @include respond(mobile) {
+            font-size: 0.8em;
+        }
+
+        &--strong {
+            font-weight: bold;
+        }
+    }
+
+    &__link {
+        margin: 0 5px;
+    }
+
+    &__arrow {
+        margin: 0 10px;
+    }
+}

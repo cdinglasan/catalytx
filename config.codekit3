@@ -14,14 +14,6 @@
 	],
 "creatorBuild": "32001",
 "files": {
-	"/.vscode/settings.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/.vscode/settings.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/about-richard.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -119,6 +111,26 @@
 		"oA": 0,
 		"oAP": "/font/GOTHICI.TTF",
 		"oF": 0
+		},
+	"/images/arrow-red-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/images/arrow-red-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/arrow-red-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/images/arrow-red-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/bg-photo-richard-yang-tablet.jpg": {
 		"ft": 16384,
@@ -994,6 +1006,303 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/profile-pic-apol.png": {
+		"ft": 32768,
+		"iS": 17910,
+		"oA": 0,
+		"oAP": "/images/profile-pic-apol.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-apol@2x.png": {
+		"ft": 32768,
+		"iS": 58081,
+		"oA": 0,
+		"oAP": "/images/profile-pic-apol@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-lester.png": {
+		"ft": 32768,
+		"iS": 16292,
+		"oA": 0,
+		"oAP": "/images/profile-pic-lester.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-lester@2x.png": {
+		"ft": 32768,
+		"iS": 52900,
+		"oA": 0,
+		"oAP": "/images/profile-pic-lester@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-mariz.png": {
+		"ft": 32768,
+		"iS": 17312,
+		"oA": 0,
+		"oAP": "/images/profile-pic-mariz.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-mariz@2x.png": {
+		"ft": 32768,
+		"iS": 56320,
+		"oA": 0,
+		"oAP": "/images/profile-pic-mariz@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-nadine.png": {
+		"ft": 32768,
+		"iS": 14123,
+		"oA": 0,
+		"oAP": "/images/profile-pic-nadine.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-nadine@2x.png": {
+		"ft": 32768,
+		"iS": 44781,
+		"oA": 0,
+		"oAP": "/images/profile-pic-nadine@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-raffy.png": {
+		"ft": 32768,
+		"iS": 16859,
+		"oA": 0,
+		"oAP": "/images/profile-pic-raffy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-raffy@2x.png": {
+		"ft": 32768,
+		"iS": 51885,
+		"oA": 0,
+		"oAP": "/images/profile-pic-raffy@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-richard.png": {
+		"ft": 32768,
+		"iS": 14803,
+		"oA": 0,
+		"oAP": "/images/profile-pic-richard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-richard@2x.png": {
+		"ft": 32768,
+		"iS": 45811,
+		"oA": 0,
+		"oAP": "/images/profile-pic-richard@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-robert.png": {
+		"ft": 32768,
+		"iS": 18012,
+		"oA": 0,
+		"oAP": "/images/profile-pic-robert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-robert@2x.png": {
+		"ft": 32768,
+		"iS": 56837,
+		"oA": 0,
+		"oAP": "/images/profile-pic-robert@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-ruby.png": {
+		"ft": 32768,
+		"iS": 19407,
+		"oA": 0,
+		"oAP": "/images/profile-pic-ruby.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-ruby@2x.png": {
+		"ft": 32768,
+		"iS": 67674,
+		"oA": 0,
+		"oAP": "/images/profile-pic-ruby@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-tejiie.png": {
+		"ft": 32768,
+		"iS": 17081,
+		"oA": 0,
+		"oAP": "/images/profile-pic-tejiie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-tejiie@2x.png": {
+		"ft": 32768,
+		"iS": 57446,
+		"oA": 0,
+		"oAP": "/images/profile-pic-tejiie@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-tess.png": {
+		"ft": 32768,
+		"iS": 16140,
+		"oA": 0,
+		"oAP": "/images/profile-pic-tess.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-tess@2x.png": {
+		"ft": 32768,
+		"iS": 50500,
+		"oA": 0,
+		"oAP": "/images/profile-pic-tess@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-tessa.png": {
+		"ft": 32768,
+		"iS": 16992,
+		"oA": 0,
+		"oAP": "/images/profile-pic-tessa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/profile-pic-tessa@2x.png": {
+		"ft": 32768,
+		"iS": 52958,
+		"oA": 0,
+		"oAP": "/images/profile-pic-tessa@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/thumbnail-video-gardenia.jpg": {
+		"ft": 16384,
+		"iS": 18081,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/thumbnail-video-gardenia.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/thumbnail-video-goya.jpg": {
+		"ft": 16384,
+		"iS": 13651,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/thumbnail-video-goya.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/thumbnail-video-lola-remedios.jpg": {
+		"ft": 16384,
+		"iS": 19612,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/thumbnail-video-lola-remedios.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/thumbnail-video-sarsaya.jpg": {
+		"ft": 16384,
+		"iS": 22588,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/thumbnail-video-sarsaya.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/thumbnail-video-uratex.jpg": {
+		"ft": 16384,
+		"iS": 14958,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/thumbnail-video-uratex.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1009,6 +1318,28 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/aos.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/chili-1.7.pack.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/chili-1.7.pack.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/jquery.cycle.all.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/jquery.cycle.all.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -1034,6 +1365,22 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"/our-team.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/our-team.html",
+		"oF": 0
+		},
+	"/our-work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/our-work.html",
+		"oF": 0
 		},
 	"/philosophy.html": {
 		"cB": 0,
@@ -1099,12 +1446,28 @@
 		"oAP": "/scss/.sass-cache/0be0c005ca2f510b2469664ca2d038b27582838e/_success-stories.scssc",
 		"oF": 0
 		},
+	"/scss/.sass-cache/0be0c005ca2f510b2469664ca2d038b27582838e/_team.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/scss/.sass-cache/0be0c005ca2f510b2469664ca2d038b27582838e/_team.scssc",
+		"oF": 0
+		},
 	"/scss/.sass-cache/0be0c005ca2f510b2469664ca2d038b27582838e/_what-we-do.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/.sass-cache/0be0c005ca2f510b2469664ca2d038b27582838e/_what-we-do.scssc",
+		"oF": 0
+		},
+	"/scss/.sass-cache/0be0c005ca2f510b2469664ca2d038b27582838e/_work.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/scss/.sass-cache/0be0c005ca2f510b2469664ca2d038b27582838e/_work.scssc",
 		"oF": 0
 		},
 	"/scss/.sass-cache/12f85f0f6dbf8b5af5b861cbd917622dd9d670c6/_mixins.scssc": {
@@ -1848,6 +2211,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/scss/page/_team.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/page/_team.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/scss/page/_what-we-do.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1857,6 +2233,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/page/_what-we-do.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/scss/page/_work.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/scss/page/_work.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
