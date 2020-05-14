@@ -7,8 +7,8 @@
     }
 
     &__primary {
-        width: 30%;
-        margin-left: 2.5%;
+        width: 25%;
+        margin-left: 5%;
 
         @include respond(tablet) {
             width: 45%;
@@ -34,8 +34,8 @@
     }
 
     &__social {
-        width: 30%;
-        margin-left: 2.5%;
+        width: 25%;
+        margin-left: 5%;
 
         @include respond(tablet) {
             width: 45%;

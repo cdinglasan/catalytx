@@ -16,7 +16,8 @@
     background-size: cover;
     height: 100vh;
     margin-top: 175px;
-    padding: 0 40px;
+    padding: 0 40px 120px 40px;
+
 
     
     @include respond(tablet) {
@@ -35,15 +36,26 @@
         background-size: cover;
         margin-top: 0;
 
+        padding: 0 40px 150px 40px;
+
     }
 
     &__quote {
         width: 60%;
 
+        @include respond(1920px) {
+           margin-left: 60px;
+        }
+
         @include respond(tablet) {
             width: 94%;
             margin:0 auto;
             margin-bottom: 80px;
+        }
+
+        @include respond(mobile) {
+            width: 100%;
+            margin-bottom: 0;
         }
     }
     

@@ -1,5 +1,6 @@
 .success-stories {
     display: flex;
+    margin-bottom: 100px;
 
     @include respond(tablet) {
         flex-wrap: wrap;
@@ -7,6 +8,16 @@
    
     @include respond(mobile) {
         flex-direction: column;
+        margin-bottom: 60px;
+
+    }
+
+    &__content {
+        margin-bottom: 200px;
+
+        @include respond(mobile) {
+            margin-bottom: 60px;
+        }
     }
 
 
@@ -22,7 +33,8 @@
     }
 
         @include respond(tablet) {
-            width: 40%;
+            width: 35%;
+            margin-right: 5%;
         }
 
         @include respond(mobile) {

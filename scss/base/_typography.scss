@@ -119,13 +119,17 @@ h3 {
         line-height: 1.5em;
         margin-bottom: 1em;
 
+        @include respond(1920px) {
+            font-size: 2em;
+        }
+
         @include respond(tablet) {
             font-size: 1.5em;
             text-align: center;
         }
 
         @include respond(mobile) {
-            font-size: 1.2em;
+            font-size: 1em;
             text-align: center;
         }
     }

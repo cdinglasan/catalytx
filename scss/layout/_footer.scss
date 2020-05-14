@@ -13,17 +13,21 @@
         background: transparent;
         position: fixed !important;
 
-        @include respond(1366px) {
+        @include respond(1920px) {
             position: relative !important;
+        }
+
+        @include respond(mobile) {
+            position: fixed !important;
         }
     }
 
     &--relative {
         position: relative;
-        margin-top: 120px;
+        //margin-top: 120px;
     }
 
-    @include respond(1366px) {
+    @include respond(1920px) {
         position: relative;
     }
 
