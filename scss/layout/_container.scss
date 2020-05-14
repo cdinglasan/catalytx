@@ -53,4 +53,14 @@
     @include respond(mobile) {
         padding-top: 102.52px;
     }
+
+    &--brain {
+        padding-top: 210px;
+
+        @include respond(mobile) {
+            padding-top: 150px;
+        }
+    }
+
+   
 }
