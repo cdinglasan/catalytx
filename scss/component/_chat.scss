@@ -5,7 +5,7 @@
     z-index: 999;
 
     @include respond(mobile) {
-        bottom: 10px;
+        bottom: 40px;
         right: 10px;
     }
 }

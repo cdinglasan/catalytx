@@ -55,10 +55,12 @@
     }
 
     &--brain {
-        padding-top: 210px;
+        padding-top: 300px;
+        margin-bottom: 200px;
 
         @include respond(mobile) {
             padding-top: 150px;
+            margin-bottom: -60px;
         }
     }
 
