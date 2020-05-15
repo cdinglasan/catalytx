@@ -1,3 +1,6 @@
+    //Animate on Scroll
+    AOS.init();
+
 $(document).ready(function(){
         
     $('.mobile-nav--trigger').click(function() {

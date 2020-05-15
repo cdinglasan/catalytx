@@ -22,11 +22,13 @@
     }
 
     &--2-of-6 {
-        width: 48%;
+        width: 44%;
+        margin-left: 4%;
         padding: 1%;
 
         @include respond(tablet) {
             width: 100%;
+            margin-left: 0;
             padding: 0;
         }
     }

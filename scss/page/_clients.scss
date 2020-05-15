@@ -2,6 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+
+    margin-bottom: 200px;
+
+
+    @include respond(tablet) {
+        margin-bottom: 60px;
+
+     }
+
+     @include respond(mobile) {
+        margin-bottom: 0;
+
+     }
     
     &__item {
         display: flex;

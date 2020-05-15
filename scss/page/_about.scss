@@ -1,5 +1,9 @@
 .about {
     &__content {
-        margin-bottom: 100px;
+        margin-bottom: 200px;
+
+        @include respond(tablet) {
+            margin-bottom: 0;
+         }
     }
 }
