@@ -23,6 +23,7 @@ $(document).ready(function(){
         $('.home__brain--left').removeClass('opacity--low');
         $('.home__h2--right').addClass('opacity--low');
         $('.home__h2--left').removeClass('opacity--low');
+        $('.home__amp').addClass('opacity--low');
     });
     
 
@@ -31,6 +32,7 @@ $(document).ready(function(){
         $('.home__brain--right').removeClass('opacity--low');
         $('.home__h2--left').addClass('opacity--low');
         $('.home__h2--right').removeClass('opacity--low');
+        $('.home__amp').addClass('opacity--low');
     });
 
     $('.home__brain--left').mouseout(function(){
@@ -38,6 +40,7 @@ $(document).ready(function(){
         $('.home__h2--right').removeClass('opacity--low');
         $('.home__brain--left').removeClass('opacity--low');
         $('.home__brain--right').removeClass('opacity--low');
+        $('.home__amp').removeClass('opacity--low');
     });
 
     $('.home__brain--right').mouseout(function(){
@@ -45,6 +48,7 @@ $(document).ready(function(){
         $('.home__h2--right').removeClass('opacity--low');
         $('.home__brain--left').removeClass('opacity--low');
         $('.home__brain--right').removeClass('opacity--low');
+        $('.home__amp').removeClass('opacity--low');
     });
 
     $('.home__h2--left').hover(function(){
@@ -66,6 +70,7 @@ $(document).ready(function(){
         $('.home__h2--right').removeClass('opacity--low');
         $('.home__brain--left').removeClass('opacity--low');
         $('.home__brain--right').removeClass('opacity--low');
+        $('.home__amp').removeClass('opacity--low');
     });
 
     $('.home__h2--left').mouseout(function(){
@@ -73,6 +78,7 @@ $(document).ready(function(){
         $('.home__h2--right').removeClass('opacity--low');
         $('.home__brain--left').removeClass('opacity--low');
         $('.home__brain--right').removeClass('opacity--low');
+        $('.home__amp').removeClass('opacity--low');
     });
 
     $('.work__video').cycle({ 

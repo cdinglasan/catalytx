@@ -358,6 +358,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/icon-yt.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/images/icon-yt.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/logo-agri-acific.png": {
 		"ft": 32768,
 		"iS": 8389,
@@ -484,8 +494,8 @@
 		"oA": 0,
 		"oAP": "/images/logo-century-pacific.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -641,6 +651,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-imerch-retail-services.jpg": {
+		"ft": 16384,
+		"iS": 577896,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/logo-imerch-retail-services.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/logo-imerch.png": {
